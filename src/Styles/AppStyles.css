@@ -1,0 +1,160 @@
+.bop_logo{
+    width: 100px;
+    border-radius: 10px;
+}
+.menus{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    gap: 30px;
+    background-color: #653002;
+    color: #fccb01;
+    font-size: 20px;
+}
+.menu_item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hero {
+    margin-top: 20px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../img/restaurant_inside.jpg');
+    background-size: cover;
+    background-position: 75%;
+    color: white;
+    min-height: 200px;
+    padding: 30px;
+    text-align: center;;
+}
+
+#hero p {
+    font-size: 2rem;
+    margin:0;
+    text-shadow: 2px 2px 4px #333333;
+}
+.cta { 
+    display: inline-block; 
+    color: rgba(255, 255, 255, 0.9);
+    width: 200px; 
+    font-weight: bold; 
+    font-size: 1.5rem;
+    padding: 8px; 
+    border: 3px solid #fff; 
+    text-align: center; 
+    outline: none; 
+    text-decoration: none; 
+    margin: 1rem;
+} 
+
+.cta:hover {
+    color:#fff;
+    background:#495E57;
+    border: 3px solid #495E57; 
+  }
+
+  .card_title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333333;
+    margin: 1rem 0;
+    font-family: 'Markazi Text', serif;
+    letter-spacing: 2px;
+  }
+  .link{
+    color: #f4ae7b;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .link:hover{
+    text-decoration: underline;
+  }
+
+  .home_card{
+    height: 90vh !important;
+    border-radius: 0 !important;
+  }
+  .footer_{
+    background-color: #edefee;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  .bop_logo_footer{
+    width: 50px;
+    margin-left: 20px;
+  }
+  .line{
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  .about_title{
+    font-size: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+    font-family: 'Markazi Text', serif;
+    letter-spacing: 2px;    
+    font-weight: bold;
+  }
+
+  .about_image{
+    margin-top: 40px;
+    max-width: 100%;
+  }
+  .card__{
+    border-radius: 0 !important;
+/* background-color: red !important; */
+}
+.menu_card{
+    border-radius: 0 !important;
+    transition: 200ms;
+}
+
+.menu_card:hover{
+    /* height: 250px; */
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.menu_img{
+    height: 160px;
+}
+.menu_title{
+    margin-top: 10px;
+}
+.item_title{
+    color: #efa389;
+}
+.item_price{
+    margin: 0;
+}
+.submenu_card{
+    border-radius: 0 !important;
+    /* height: 20vh !important; */
+}
+.sub_item_image{
+    height: 180px;
+}
+
+.input_field{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgb(234, 234, 234);
+}
+
+.input_field:focus{
+    outline: 1px solid #653002;
+}
+
+.primary_btn{
+    background-color: #653002;
+    color: #fccb01;
+    border: none;
+    padding: 10px 50px;
+    /* margin-top: 10px; */
+    width: 100%;
+}
