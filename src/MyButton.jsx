@@ -1,0 +1,2 @@
+// export const MyButton = ({btn_text})=> <button style={{backgroundColor:'red', border:'none', padding:10}}>{btn_text}</button>
+export const MyButton = (props)=> <button  style={{backgroundColor:'red', border:'none', padding:10, ...props.style}}>{props.btn_text}</button>

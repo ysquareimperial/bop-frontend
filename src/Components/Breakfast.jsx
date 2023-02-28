@@ -2,37 +2,37 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
 import beef from '../../img/menu/beef.jpg'
-import soup from '../../img/menu/soup.jpg'
-import pasta from '../../img/menu/pasta1.jpg'
-import appetizers from '../../img/menu/appetizers.jpg'
-import sides from '../../img/menu/sides.jpg'
-import lunch from '../../img/menu/lunch.jpg'
-function Beef(){
+import p_wedges from '../../img/menu/PotatoWedges.jpg'
+import golden_y from '../../img/menu/pasta1.jpg'
+import fried_y from '../../img/menu/friedyam.jpg'
+import indomie from '../../img/menu/Indomie_Sausage.jpg'
+import indomie_s from '../../img/menu/IndomieSardine.jpg'
+function Breakfast(){
     const navigate = useNavigate()
-    const Beefmenus = [
+    const breakfastmenus = [
 {
     image:<img src={beef} alt='' className="sub_item_image"/>,
     title:'Fries & Sausage,Egg',
     price:'₦500.00'
 },
 {
-    image:<img src={soup} alt='' className="sub_item_image"/>,
+    image:<img src={p_wedges} alt='' className="sub_item_image"/>,
     title:'Potato Wedges & Sauce',
     price:'₦1300.00'
 },{
-    image:<img src={pasta} alt='' className="sub_item_image"/>,
+    image:<img src={golden_y} alt='' className="sub_item_image"/>,
     title:'Golden Yam',
     price:'₦600.00'
 },{
-    image:<img src={appetizers} alt='' className="sub_item_image"/>,
+    image:<img src={fried_y} alt='' className="sub_item_image"/>,
     title:'Fried Yam',
     price:'₦500.00'
 },{
-    image:<img src={sides} alt='' className="sub_item_image"/>,
+    image:<img src={indomie} alt='' className="sub_item_image"/>,
     title:'Indomie, Sausage, Egg',
     price:'₦500.00'
 },{
-    image:<img src={lunch} alt='' className="sub_item_image"/>,
+    image:<img src={indomie_s} alt='' className="sub_item_image"/>,
     title:'Indomie, Sausage, Egg & Sardine',
     price:'₦700.00'
 },
@@ -45,9 +45,9 @@ function Beef(){
 
       
         <span style={{fontSize:15, cursor:'pointer', color:'red'}} onClick={()=>navigate(-1)}>/Go Back</span>
-    <h1 className="about_title">Beef</h1>
+    <h1 className="about_title">Breakfast</h1>
     <Row>
-        {Beefmenus.map((item)=>(
+        {breakfastmenus.map((item)=>(
 
             <Col md={3}>
                 <Card className="p-2 submenu_card mb-3 shadow-sm">
@@ -69,4 +69,4 @@ function Beef(){
         </>
     )
 }
-export default Beef
+export default Breakfast

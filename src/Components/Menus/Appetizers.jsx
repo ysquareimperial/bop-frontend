@@ -7,9 +7,11 @@ import pasta from '../../img/menu/pasta1.jpg'
 import appetizers from '../../img/menu/appetizers.jpg'
 import sides from '../../img/menu/sides.jpg'
 import lunch from '../../img/menu/lunch.jpg'
-function Beef(){
+
+
+function Appetizers(){
     const navigate = useNavigate()
-    const Beefmenus = [
+    const appetizersmenus = [
 {
     image:<img src={beef} alt='' className="sub_item_image"/>,
     title:'Fries & Sausage,Egg',
@@ -45,9 +47,9 @@ function Beef(){
 
       
         <span style={{fontSize:15, cursor:'pointer', color:'red'}} onClick={()=>navigate(-1)}>/Go Back</span>
-    <h1 className="about_title">Beef</h1>
+    <h1 className="about_title">Appetizers</h1>
     <Row>
-        {Beefmenus.map((item)=>(
+        {appetizersmenus.map((item)=>(
 
             <Col md={3}>
                 <Card className="p-2 submenu_card mb-3 shadow-sm">
@@ -69,4 +71,4 @@ function Beef(){
         </>
     )
 }
-export default Beef
+export default Appetizers

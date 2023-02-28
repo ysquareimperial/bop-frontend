@@ -13,13 +13,13 @@ export default function Menus(){
     const navigate = useNavigate()
     const menu=[
         {image:<img className="menu_img" src={breakfast}/>, title:'Breakfast' ,link:'/menus/breakfast'},
-        {image:<img className="menu_img" src={englishbreakfast}/>, title:'English Breakfast' ,link:'/menus/englishbreakfast'},
-        {image:<img className="menu_img" src={lunch}/>, title:'Lunch' ,link:'/'},
-        {image:<img className="menu_img" src={pasta}/>, title:'Pasta' ,link:'/'},
-        {image:<img className="menu_img" src={beef}/>, title:'Beef' ,link:'/'},
-        {image:<img className="menu_img" src={sides}/>, title:'Sides' ,link:'/'},
-        {image:<img className="menu_img" src={appetizers}/>, title:'Appetizers' ,link:'/'},
-        {image:<img className="menu_img" src={soup}/>, title:'Soup'}
+        {image:<img className="menu_img" src={englishbreakfast}/>, title:'English Breakfast' ,link:'/menus/ebreakfast'},
+        {image:<img className="menu_img" src={lunch}/>, title:'Lunch' ,link:'/menus/lunch'},
+        {image:<img className="menu_img" src={pasta}/>, title:'Pasta' ,link:'/menus/pasta'},
+        {image:<img className="menu_img" src={beef}/>, title:'Beef' ,link:'/menus/beef'},
+        {image:<img className="menu_img" src={sides}/>, title:'Sides' ,link:'/menus/sides'},
+        {image:<img className="menu_img" src={appetizers}/>, title:'Appetizers' ,link:'/menus/appetizers'},
+        {image:<img className="menu_img" src={soup}/>, title:'Soup', link:'/menus/soup'}
     ]
     return(
         <>

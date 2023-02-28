@@ -29,8 +29,8 @@ export default function AppIndex(){
         <img src={logo} alt='bop logo' className="bop_logo_footer"/>
                 </Col>
                 <Col md={6} className=''>
-                    <div className="line"></div>
-                    <p className="m-0" style={{float:'right'}}>All rights reserved - © Mcferri</p>
+                    {/* <div className="line"></div> */}
+                    <p className="m-0" style={{float:'right', fontSize:10}}>All rights reserved - © Mcferri</p>
                 </Col>
             </Row>
 

@@ -45,9 +45,9 @@ function Pasta(){
 
       
         <span style={{fontSize:15, cursor:'pointer', color:'red'}} onClick={()=>navigate(-1)}>/Go Back</span>
-    <h1 className="about_title">Breakfast</h1>
+    <h1 className="about_title">Pasta & Spagetti</h1>
     <Row>
-        {breakfastmenus.map((item)=>(
+        {Pastamenus.map((item)=>(
 
             <Col md={3}>
                 <Card className="p-2 submenu_card mb-3 shadow-sm">
@@ -69,4 +69,4 @@ function Pasta(){
         </>
     )
 }
-export default pasta
+export default Pasta
