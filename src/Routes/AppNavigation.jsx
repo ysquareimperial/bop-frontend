@@ -18,7 +18,7 @@ export default function AppNavigation(){
     let element = useRoutes([
         {
             path:'/',
-            element:<AppIndex/>,
+            element:<HomePage/>,
             children:[{index:true}]
         },
         {

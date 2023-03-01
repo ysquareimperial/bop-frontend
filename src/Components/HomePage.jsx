@@ -2,10 +2,13 @@ import React from "react";
 import grill from '../img/grill.jpg'
 import salad from '../img/salad.jpg'
 import head from '../img/head_chef.jpg'
-import { Card, Col, Row } from "reactstrap";
+import { Card, Col, Container, Row } from "reactstrap";
+import logo from '../img/logo1.png'
+import { useLocation } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 export default function HomePage(){
     const navigate = useNavigate()
+    const location = useLocation()
     const cards =[
         {
             title:'Our New Menu',
@@ -32,6 +35,20 @@ export default function HomePage(){
     ]
     return(
         <>
+        <Container>
+{location.pathname.includes('home')?null:
+         <div className="m-0 p-0">
+            <div className="text-center">
+            <img src={logo} alt='bop logo' className="bop_logo mt-5"/>
+            </div>
+            <div className="menus">
+                                <p className="menu_item m-0" onClick={()=>navigate('/home')}>Home</p>
+                                <p className="menu_item m-0" onClick={()=>navigate('/about')}>About</p>
+                                <p className="menu_item m-0" onClick={()=>navigate('/menus')}>Menu</p>
+                                <p className="menu_item m-0" onClick={()=>navigate('/book')}>Book</p>
+            </div>
+        </div>
+           }
 <section>
     <article id="hero">
       <h1 class="heading_shadow">SPECIAL OFFER</h1>
@@ -43,10 +60,10 @@ export default function HomePage(){
   </section>
 
   <div className="mt-4">
-    <Row>
+    <Row className="m-0 p-0">
         {cards.map((item)=>(
-
-            <Col md={4}>
+          
+          <Col md={4}>
 <Card className="home_card shadow-sm p-3 mb-2">
 <h2 className="card_title">{item.title}</h2>
 {item.image}
@@ -60,6 +77,21 @@ export default function HomePage(){
             ))}
     </Row>
   </div>
+  <div className="">
+            <Row className="footer_ mt-2 m-0">
+                <Col md={6}>
+
+        <img src={logo} alt='bop logo' className="bop_logo_footer"/>
+                </Col>
+                <Col md={6} className=''>
+                    {/* <div className="line"></div> */}
+                    <p className="m-0" style={{float:'right', fontSize:10}}>All rights reserved - © Mcferri</p>
+                </Col>
+            </Row>
+
+        
+        </div>
+            </Container>
         </>
     )
 }
