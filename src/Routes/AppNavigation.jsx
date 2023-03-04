@@ -14,6 +14,7 @@ import Soup from "../Components/Menus/Soup";
 import Beef from "../Components/Menus/Beef";
 import Appetizers from "../Components/Menus/Appetizers";
 import AppIndex from "./AppIndex";
+import Dd from "./Dd";
 export default function AppNavigation(){
     let element = useRoutes([
         {
@@ -77,6 +78,10 @@ export default function AppNavigation(){
 
 
             ]
+        },
+        {
+            path:'/dd',
+            element:<Dd/>
         }
     ])
     return element
