@@ -1,42 +1,26 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
-import beef from '../../img/menu/beef.jpg'
-import soup from '../../img/menu/soup.jpg'
-import pasta from '../../img/menu/pasta1.jpg'
-import appetizers from '../../img/menu/appetizers.jpg'
-import sides from '../../img/menu/sides.jpg'
-import lunch from '../../img/menu/lunch.jpg'
+import bc from '../../img/new_menu/Bop Chicken Grill Full.JPG'
+import st from '../../img/new_menu/Shish Tawook 4sticks.JFIF'
+import cs from '../../img/new_menu/Chicken Skewers served.JFIF'
 function Beef(){
     const navigate = useNavigate()
     const Beefmenus = [
 {
-    image:<img src={beef} alt='' className="sub_item_image"/>,
-    title:'Fries & Sausage,Egg',
-    price:'₦500.00'
+    image:<img src={bc} alt='' className="sub_item_image"/>,
+    title:'Bop Chicken Grill Full',
+    price:'₦4500.00'
 },
 {
-    image:<img src={soup} alt='' className="sub_item_image"/>,
-    title:'Potato Wedges & Sauce',
-    price:'₦1300.00'
+    image:<img src={st} alt='' className="sub_item_image"/>,
+    title:'Shish Tawook 4sticks Chicken Skewers served',
+    price:'₦2500.00'
 },{
-    image:<img src={pasta} alt='' className="sub_item_image"/>,
-    title:'Golden Yam',
+    image:<img src={cs} alt='' className="sub_item_image"/>,
+    title:'Chicken Skewers served with Fries & Humms, Bread',
     price:'₦600.00'
-},{
-    image:<img src={appetizers} alt='' className="sub_item_image"/>,
-    title:'Fried Yam',
-    price:'₦500.00'
-},{
-    image:<img src={sides} alt='' className="sub_item_image"/>,
-    title:'Indomie, Sausage, Egg',
-    price:'₦500.00'
-},{
-    image:<img src={lunch} alt='' className="sub_item_image"/>,
-    title:'Indomie, Sausage, Egg & Sardine',
-    price:'₦700.00'
 },
-
     ]
     return(
         <>

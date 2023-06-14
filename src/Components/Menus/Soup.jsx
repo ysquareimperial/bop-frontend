@@ -1,42 +1,26 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
-import beef from '../../img/menu/beef.jpg'
-import soup from '../../img/menu/soup.jpg'
-import pasta from '../../img/menu/pasta1.jpg'
-import appetizers from '../../img/menu/appetizers.jpg'
-import sides from '../../img/menu/sides.jpg'
-import lunch from '../../img/menu/lunch.jpg'
+import ms from '../../img/new_menu/Minestrone Soup.JFIF'
+import cs from '../../img/new_menu/Chicken Sweet corn creamy.JPEG'
+import ps from '../../img/new_menu/Peking Soup.JFIF'
 function Soup(){
     const navigate = useNavigate()
     const SoupMenu = [
 {
-    image:<img src={beef} alt='' className="sub_item_image"/>,
-    title:'Fries & Sausage,Egg',
-    price:'₦500.00'
+    image:<img src={ms} alt='' className="sub_item_image"/>,
+    title:'Minestrone Soup',
+    price:'₦1500.00'
 },
 {
-    image:<img src={soup} alt='' className="sub_item_image"/>,
-    title:'Potato Wedges & Sauce',
-    price:'₦1300.00'
+    image:<img src={cs} alt='' className="sub_item_image"/>,
+    title:'Chicken Sweet corn creamy',
+    price:'₦1500.00'
 },{
-    image:<img src={pasta} alt='' className="sub_item_image"/>,
-    title:'Golden Yam',
-    price:'₦600.00'
-},{
-    image:<img src={appetizers} alt='' className="sub_item_image"/>,
-    title:'Fried Yam',
-    price:'₦500.00'
-},{
-    image:<img src={sides} alt='' className="sub_item_image"/>,
-    title:'Indomie, Sausage, Egg',
-    price:'₦500.00'
-},{
-    image:<img src={lunch} alt='' className="sub_item_image"/>,
-    title:'Indomie, Sausage, Egg & Sardine',
-    price:'₦700.00'
-},
-
+    image:<img src={ps} alt='' className="sub_item_image"/>,
+    title:'Peking Soup',
+    price:'₦1500.00'
+}
     ]
     return(
         <>
