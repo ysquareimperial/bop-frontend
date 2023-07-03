@@ -1,9 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Card, Col, Row } from 'reactstrap'
-import ff from '../../img/new_menu/French Fries.JFIF'
-import mp from '../../img/new_menu/Mashed Potatoes.JFIF'
-import hp from '../../img/new_menu/Herbed Potatoes.JFIF'
+import ff from '../../img/new_menu/French Fries.jpg'
+import mp from '../../img/new_menu/Mashed Potatoes.jpg'
+import hp from '../../img/new_menu/Herbed Potatoes.jpg'
 function Sides() {
   const navigate = useNavigate()
   const sidesmenus = [

@@ -1,9 +1,9 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Card, Col, Row } from 'reactstrap'
-import sc from '../../img/new_menu/Samosa ChickenBeefs.JFIF'
-import sp from '../../img/new_menu/Springrolls ChickenVeg.JFIF'
-import bw from '../../img/new_menu/Buffalo Wings.JFIF'
+import sc from '../../img/new_menu/Samosa ChickenBeefs.jpg'
+import sp from '../../img/new_menu/Springrolls ChickenVeg.jpg'
+import bw from '../../img/new_menu/Buffalo Wings.jpg'
 
 function Appetizers() {
   const navigate = useNavigate()

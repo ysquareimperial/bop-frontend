@@ -8,12 +8,12 @@ import { Card, Col, Row } from 'reactstrap'
 // import indomie from '../../img/menu/Indomie_Sausage.jpg'
 // import indomie_s from '../../img/menu/IndomieSardine.jpg'
 import be from '../../img/new_menu/Boiled Eggs.JPG'
-import fy from '../../img/new_menu/Fried Yam.JFIF'
-import fS from '../../img/new_menu/Fries & Sausage, Egg.JFIF'
+import fy from '../../img/new_menu/Fried Yam.jpg'
+import fS from '../../img/new_menu/Fries & Sausage, Egg.jpg'
 import gy from '../../img/new_menu/Golden Yam.JPG'
-import is from '../../img/new_menu/Indomie, Sausage, Egg & Sardine.JFIF'
-import ise from '../../img/new_menu/Indomie, Sausage, Egg.JFIF'
-import pw from '../../img/new_menu/Potato Wedges & Sauce.JFIF'
+import is from '../../img/new_menu/Indomie, Sausage, Egg & Sardine.jpg'
+import ise from '../../img/new_menu/Indomie, Sausage, Egg.jpg'
+import pw from '../../img/new_menu/Potato Wedges & Sauce.jpg'
 function Breakfast() {
   const navigate = useNavigate()
   const breakfastmenus = [

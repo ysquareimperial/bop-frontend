@@ -2,8 +2,8 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
 import bc from '../../img/new_menu/Bop Chicken Grill Full.JPG'
-import st from '../../img/new_menu/Shish Tawook 4sticks.JFIF'
-import cs from '../../img/new_menu/Chicken Skewers served.JFIF'
+import st from '../../img/new_menu/Shish Tawook 4sticks.jpg'
+import cs from '../../img/new_menu/Chicken Skewers served.jpg'
 function Beef(){
     const navigate = useNavigate()
     const Beefmenus = [

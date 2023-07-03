@@ -1,8 +1,8 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
-import tps from '../../img/new_menu/Toast, Pancake, Sausage.JFIF'
-import be from '../../img/new_menu/Baked Beans & Egg.JFIF'
+import tps from '../../img/new_menu/Toast, Pancake, Sausage.jpg'
+import be from '../../img/new_menu/Baked Beans & Egg.jpg'
 import { MyButton } from "../../MyButton";
 function EBreakfast(){
     const navigate = useNavigate()

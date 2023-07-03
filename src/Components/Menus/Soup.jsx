@@ -1,9 +1,9 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import { Card, Col, Row } from "reactstrap";
-import ms from '../../img/new_menu/Minestrone Soup.JFIF'
-import cs from '../../img/new_menu/Chicken Sweet corn creamy.JPEG'
-import ps from '../../img/new_menu/Peking Soup.JFIF'
+import ms from '../../img/new_menu/Minestrone Soup.jpg'
+import cs from '../../img/new_menu/Chicken Sweet corn creamy.jpg'
+import ps from '../../img/new_menu/Peking Soup.jpg'
 function Soup(){
     const navigate = useNavigate()
     const SoupMenu = [
